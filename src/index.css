@@ -1,0 +1,18 @@
+/* HTML Selectors */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Class Selectors */
+.nav {
+  background-color: #f15b5a;
+  height: 70px;
+  width: 100vw;
+}
+
+/* ID selectors */
