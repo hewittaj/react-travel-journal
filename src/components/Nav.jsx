@@ -1,5 +1,5 @@
 import React from 'react'
-import globe from '../assets/globe-2.svg'
+import globe from '/public/assets/globe-2.svg'
 
 function Nav() {
     return (

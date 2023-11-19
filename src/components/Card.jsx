@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Card(props) {
+    console.log(props.item.img)
     return (
         <div className="card">
-            <h1>{props.id}</h1>
+            <img src={`/public/assets/${props.item.img}`}/>
         </div>
     )
 }
