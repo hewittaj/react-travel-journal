@@ -13,9 +13,9 @@ function Card(props) {
                     <a href={props.item.googleMapsLink} className='links-grey'>View on Google Maps</a>
                 </div>
                 <div className='card-location-details'>
-                    <h2>{props.item.city}</h2>
-                    <p>{props.item.datesVisited}</p>
-                    <p>{props.item.details}</p>
+                    <h2 className='card-city'>{props.item.city}</h2>
+                    <p className='card-dates-visited'>{props.item.datesVisited}</p>
+                    <p className='card-city-details'>{props.item.details}</p>
                 </div>
             </div>
         </div>
