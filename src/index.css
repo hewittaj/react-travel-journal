@@ -11,15 +11,17 @@ body {
 
 /* Class Selectors */
 .card {
+  display: flex;
   padding-bottom: 40px;
 }
 
 .card-photo {
   border-radius: 10px;
-  height: 400px;
-  max-width: 250px;
+  height: 300px;
+  max-width: 200px;
   object-fit: none;
   object-position: 50%;
+  margin-right: 20px;
 }
 
 .cards-list {
@@ -27,6 +29,12 @@ body {
   flex-direction: column;
   padding-left: 50px;
   padding-top: 70px;
+}
+
+
+.card-location-info {
+  align-items: center;
+  display: flex;
 }
 
 .nav {
