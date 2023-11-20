@@ -5,14 +5,42 @@
 
 body {
   margin: 0;
+  font-family: 'Nunito', sans-serif;
   padding: 0;
 }
 
 /* Class Selectors */
+.card {
+  padding-bottom: 40px;
+}
+
+.card-photo {
+  border-radius: 10px;
+  height: 400px;
+  max-width: 250px;
+  object-fit: none;
+  object-position: 50%;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+
 .nav {
   background-color: #f15b5a;
+  color: white;
+  display: flex;
+  justify-content: center;
   height: 70px;
   width: 100vw;
+}
+
+.nav-img {
+  max-width: 35px;
+  margin-right: 10px;
 }
 
 /* ID selectors */
