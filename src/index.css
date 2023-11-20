@@ -3,6 +3,18 @@
   box-sizing: border-box;
 }
 
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:active {
+  color: rgba(128, 128, 128, 0.715);
+}
+
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
@@ -13,6 +25,10 @@ body {
 .card {
   display: flex;
   padding-bottom: 40px;
+}
+
+.card-country {
+  margin-right: 10px;
 }
 
 .card-photo {

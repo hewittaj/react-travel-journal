@@ -9,11 +9,13 @@ function Card(props) {
             <div className='card-details'>
                 <div className="card-location-info">
                     <img src={mapPin}/>
-                    <p>{props.item.country}</p>
-                    <a href={props.item.googleMapsLink}>View on Google Maps</a>
+                    <p className='card-country'>{props.item.country}</p>
+                    <a href={props.item.googleMapsLink} className='links-grey'>View on Google Maps</a>
                 </div>
                 <div className='card-location-details'>
-
+                    <h2>{props.item.city}</h2>
+                    <p>{props.item.datesVisited}</p>
+                    <p>{props.item.details}</p>
                 </div>
             </div>
         </div>
