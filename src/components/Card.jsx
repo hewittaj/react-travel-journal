@@ -5,7 +5,7 @@ function Card(props) {
     console.log(props.item.img)
     return (
         <div className="card">
-            <img src={`../src/assets/${props.item.img}`} className='card-photo'/>
+            <img src={`../assets/${props.item.img}`} className='card-photo'/>
             <div className='card-details'>
                 <div className="card-location-info">
                     <img src={mapPin}/>
